@@ -1,0 +1,48 @@
+/* id selectors */
+#title{
+    color: darkorange;
+    font-size: 32px;
+    text-align: center;
+}
+#recipes{
+    max-width: 150px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 20px;
+    background-color: beige;
+    align-self: left;
+}
+
+/* class selectors */
+.recipe{
+    color:darkslategrey;
+    font-size: 25px;
+}
+
+/* type selectors */
+body{
+    background-color: aliceblue;
+}
+
+
+/* two classes with shared rules grouped together*/
+.dough, .filling{
+    color:cadetblue;
+}
+
+/* chained selectors */
+.title.applepie{
+    color: brown;
+    font-size: 48px;
+}
+
+/* descendant combinators */
+
+ul li {
+    background-color: burlywood;
+}
+
+/* CSS Inheritance */
+#steps{
+    color:red;
+}
